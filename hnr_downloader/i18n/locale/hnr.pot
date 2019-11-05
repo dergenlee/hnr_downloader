@@ -1,0 +1,352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-11-04 09:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ..\add.py:24
+msgid "链接地址"
+msgstr ""
+
+#: ..\add.py:34
+msgid "文件名称"
+msgstr ""
+
+#: ..\add.py:40
+msgid "文件大小"
+msgstr ""
+
+#: ..\add.py:46
+msgid "代理地址"
+msgstr ""
+
+#: ..\add.py:58
+msgid "保存路径"
+msgstr ""
+
+#: ..\add.py:60
+msgid "浏览"
+msgstr ""
+
+#: ..\add.py:68
+msgid "自动开始下载"
+msgstr ""
+
+#: ..\add.py:69
+msgid "自动改变默认保存路径"
+msgstr ""
+
+#: ..\add.py:97
+msgid "确定"
+msgstr ""
+
+#: ..\add.py:98
+msgid "取消"
+msgstr ""
+
+#: ..\add.py:134
+msgid "请输入有效的文件名"
+msgstr ""
+
+#: ..\add.py:134 ..\add.py:138 ..\hnr_downloader.py:126
+#: ..\hnr_downloader.py:208 ..\hnr_downloader.py:222 ..\hnr_downloader.py:262
+#: ..\hnr_downloader.py:277 ..\hnr_downloader.py:332 ..\hnr_downloader.py:479
+msgid "恒睿下载"
+msgstr ""
+
+#: ..\add.py:138
+msgid "请输入有效的下载地址"
+msgstr ""
+
+#: ..\add.py:170
+msgid "正在获取信息..."
+msgstr ""
+
+#: ..\add.py:191
+msgid "选择文件夹"
+msgstr ""
+
+#: ..\downloader.py:12
+msgid "准备下载"
+msgstr ""
+
+#: ..\downloader.py:13
+msgid "正在第 {} 次重试"
+msgstr ""
+
+#: ..\downloader.py:14
+msgid "正在下载"
+msgstr ""
+
+#: ..\downloader.py:15
+msgid "下载失败"
+msgstr ""
+
+#: ..\downloader.py:16
+msgid "未开始"
+msgstr ""
+
+#: ..\downloader.py:17
+msgid "已下载"
+msgstr ""
+
+#: ..\downloader.py:18
+msgid "下载暂停"
+msgstr ""
+
+#: ..\downloader.py:19
+msgid "已获取信息"
+msgstr ""
+
+#: ..\downloader.py:20
+msgid "错误: {}"
+msgstr ""
+
+#: ..\downloader.py:132
+msgid "链接地址格式不对"
+msgstr ""
+
+#: ..\downloader.py:137
+msgid "不能连接到 {}"
+msgstr ""
+
+#: ..\downloader.py:348
+msgid "需要登录"
+msgstr ""
+
+#: ..\downloader.py:350
+msgid "找不到文件"
+msgstr ""
+
+#: ..\downloader.py:352 ..\downloader.py:354
+msgid "返回错误代码：{}"
+msgstr ""
+
+#: ..\helper.py:68 ..\helper.py:84
+msgid "未知"
+msgstr ""
+
+#: ..\helper.py:86
+msgid "小于1秒"
+msgstr ""
+
+#: ..\helper.py:89
+msgid "{}秒"
+msgstr ""
+
+#: ..\helper.py:93
+msgid "{minute}分{second}秒"
+msgstr ""
+
+#: ..\helper.py:98
+msgid "{hour}小时{minute}分{second}秒"
+msgstr ""
+
+#: ..\helper.py:106
+msgid "{day}天{hour}小时{minute}分{second}秒"
+msgstr ""
+
+#: ..\hnr_downloader.py:45 ..\hnr_downloader.py:93 ..\hnr_downloader.py:130
+msgid "添加下载"
+msgstr ""
+
+#: ..\hnr_downloader.py:46 ..\hnr_downloader.py:131
+msgid "暂停下载"
+msgstr ""
+
+#: ..\hnr_downloader.py:47 ..\hnr_downloader.py:132 ..\hnr_downloader.py:314
+#: ..\hnr_downloader.py:315
+msgid "开始下载"
+msgstr ""
+
+#: ..\hnr_downloader.py:48 ..\hnr_downloader.py:133
+msgid "删除"
+msgstr ""
+
+#: ..\hnr_downloader.py:49
+msgid "配置"
+msgstr ""
+
+#: ..\hnr_downloader.py:50
+msgid "退出"
+msgstr ""
+
+#: ..\hnr_downloader.py:67
+msgid "链接"
+msgstr ""
+
+#: ..\hnr_downloader.py:69
+msgid "文件名"
+msgstr ""
+
+#: ..\hnr_downloader.py:71
+msgid "进度"
+msgstr ""
+
+#: ..\hnr_downloader.py:73
+msgid "速度"
+msgstr ""
+
+#: ..\hnr_downloader.py:75
+msgid "已用时间/剩余时间"
+msgstr ""
+
+#: ..\hnr_downloader.py:77
+msgid "状态"
+msgstr ""
+
+#: ..\hnr_downloader.py:127
+msgid "打开文件"
+msgstr ""
+
+#: ..\hnr_downloader.py:128
+msgid "打开文件所在文件夹"
+msgstr ""
+
+#: ..\hnr_downloader.py:177
+msgid "发生错误：{e}"
+msgstr ""
+
+#: ..\hnr_downloader.py:207
+msgid "真的删除选定的下载吗？"
+msgstr ""
+
+#: ..\hnr_downloader.py:221
+msgid "同时删除已经下载的文件吗？"
+msgstr ""
+
+#: ..\hnr_downloader.py:261
+msgid "链接地址已经在下载列表，是否替换？"
+msgstr ""
+
+#: ..\hnr_downloader.py:277
+msgid "已配置"
+msgstr ""
+
+#: ..\hnr_downloader.py:294
+msgid "...恒睿下载..."
+msgstr ""
+
+#: ..\hnr_downloader.py:308 ..\hnr_downloader.py:309
+msgid "继续下载"
+msgstr ""
+
+#: ..\hnr_downloader.py:311 ..\hnr_downloader.py:312
+msgid "重新下载"
+msgstr ""
+
+#: ..\hnr_downloader.py:331
+msgid "还有任务在下载，是否真的退出？"
+msgstr ""
+
+#: ..\hnr_downloader.py:359
+msgid "不能保存下载记录：{e}"
+msgstr ""
+
+#: ..\hnr_downloader.py:402
+msgid ""
+"链接地址: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:403
+msgid ""
+"代理地址（http）：{}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:404
+msgid ""
+"代理地址（https）：{}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:405
+msgid ""
+"断点续传: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:405
+msgid "是"
+msgstr ""
+
+#: ..\hnr_downloader.py:406
+msgid "否"
+msgstr ""
+
+#: ..\hnr_downloader.py:407
+msgid ""
+"文件名: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:408
+msgid ""
+"文件大小：{}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:409
+msgid ""
+"已下载: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:410
+msgid ""
+"保存位置: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:412
+msgid ""
+"已下载的文件: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:413
+msgid ""
+"下载速度: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:414
+msgid ""
+"下载耗时: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:417
+msgid ""
+"临时文件: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:418
+msgid ""
+"开始时间：{}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:420
+msgid ""
+"内容类型: {}\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:422
+msgid ""
+"最后错误：{}\n"
+"\n"
+msgstr ""
+
+#: ..\hnr_downloader.py:499
+msgid "欢迎使用恒睿下载..."
+msgstr ""
+
+#: ..\hnr_downloader.py:511
+msgid "正在下载任务数：{}"
+msgstr ""
+
+#: ..\hnr_downloader.py:512
+msgid "下载总速度：{}"
+msgstr ""
+

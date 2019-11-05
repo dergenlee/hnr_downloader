@@ -1,0 +1,9 @@
+@echo off
+echo fetching msgid...
+call gettext.cmd
+
+echo copying and merge msgid to every language...
+py copytext.py
+
+echo generating mo for every language...
+call gentext.cmd

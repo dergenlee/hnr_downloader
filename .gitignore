@@ -1,0 +1,9 @@
+.vs/
+__pycache__/
+dist/
+hnr_downloader.egg-info/
+*.py[cod]
+*.pyproj
+*.user
+*.sln
+
