@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-11-08 16:19+0800\n"
+"POT-Creation-Date: 2019-11-02 22:19+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,7 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-
 
 #: ..\add.py:24
 msgid "链接地址"
@@ -110,10 +109,6 @@ msgstr ""
 
 #: ..\downloader.py:20
 msgid "错误: {}"
-msgstr ""
-
-#: ..\downloader.py:39
-msgid "不能停止下载"
 msgstr ""
 
 #: ..\downloader.py:137
@@ -348,7 +343,7 @@ msgstr ""
 msgid "正在下载任务数：{}"
 msgstr ""
 
-#: ..\main.py:518
+
 msgid "下载总速度：{}"
 msgstr ""
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-11-08 16:19+0800\n"
+"POT-Creation-Date: 2019-11-01 15:44+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 
-
 #: ..\add.py:24
 msgid "链接地址"
-msgstr ""
+msgstr "Url"
 
 #: ..\add.py:35
 msgid "文件名称"
-msgstr ""
+msgstr "Filename"
 
 #: ..\add.py:42
 msgid "文件大小"
-msgstr ""
+msgstr "Filesize"
 
 #: ..\add.py:50
 msgid "代理地址"
-msgstr ""
+msgstr "Proxies"
 
 #: ..\add.py:63
 msgid "保存路径"
-msgstr ""
+msgstr "Save To"
 
 #: ..\add.py:67
 msgid "浏览"
-msgstr ""
+msgstr "Browse"
 
 #: ..\add.py:77
 msgid "自动开始下载"
@@ -49,52 +48,52 @@ msgstr ""
 
 #: ..\add.py:107
 msgid "确定"
-msgstr ""
+msgstr "Ok"
 
 #: ..\add.py:108
 msgid "取消"
-msgstr ""
+msgstr "Cancel"
 
 #: ..\add.py:145
 msgid "请输入有效的文件名"
-msgstr ""
+msgstr "Please enter a valid filename."
 
 #: ..\add.py:145 ..\add.py:149 ..\main.py:127 ..\main.py:213 ..\main.py:227
 #: ..\main.py:267 ..\main.py:282 ..\main.py:337 ..\main.py:484
 msgid "恒睿下载"
-msgstr ""
+msgstr "Hengrui Downloader"
 
 #: ..\add.py:149
 msgid "请输入有效的下载地址"
-msgstr ""
+msgstr "Please enter a valid Url"
 
 #: ..\add.py:181
 msgid "正在获取信息..."
-msgstr ""
+msgstr "Fetching file info"
 
 #: ..\add.py:202
 msgid "选择文件夹"
-msgstr ""
+msgstr "Select a folder"
 
 #: ..\downloader.py:12
 msgid "准备下载"
-msgstr ""
+msgstr "Starting"
 
 #: ..\downloader.py:13
 msgid "正在第 {} 次重试"
-msgstr ""
+msgstr "Retry {}"
 
 #: ..\downloader.py:14
 msgid "正在下载"
-msgstr ""
+msgstr "Downloading"
 
 #: ..\downloader.py:15
 msgid "下载失败"
-msgstr ""
+msgstr "Failed"
 
 #: ..\downloader.py:16
 msgid "未开始"
-msgstr ""
+msgstr "Not started"
 
 #: ..\downloader.py:17
 msgid "已下载"
@@ -102,83 +101,79 @@ msgstr ""
 
 #: ..\downloader.py:18
 msgid "下载暂停"
-msgstr ""
+msgstr "Paused"
 
 #: ..\downloader.py:19
 msgid "已获取信息"
-msgstr ""
+msgstr "File info fetched"
 
 #: ..\downloader.py:20
 msgid "错误: {}"
-msgstr ""
-
-#: ..\downloader.py:39
-msgid "不能停止下载"
-msgstr ""
+msgstr "Error: {}"
 
 #: ..\downloader.py:137
 msgid "链接地址格式不对"
-msgstr ""
+msgstr "Wrong Url Format"
 
 #: ..\downloader.py:142
 msgid "不能连接到 {}"
-msgstr ""
+msgstr "Cann't connect to {}"
 
 #: ..\downloader.py:358
 msgid "需要登录"
-msgstr ""
+msgstr "Need authenticating"
 
 #: ..\downloader.py:360
 msgid "找不到文件"
-msgstr ""
+msgstr "File not found"
 
 #: ..\downloader.py:362 ..\downloader.py:364
 msgid "返回错误代码：{}"
-msgstr ""
+msgstr "Returned error code: {}"
 
 #: ..\helper.py:68 ..\helper.py:84
 msgid "未知"
-msgstr ""
+msgstr "Unknown"
 
 #: ..\helper.py:86
 msgid "小于1秒"
-msgstr ""
+msgstr "Less then 1 second"
 
 #: ..\helper.py:89
 msgid "{}秒"
-msgstr ""
+msgstr "{} Seconds"
 
 #: ..\helper.py:93
 msgid "{minute}分{second}秒"
-msgstr ""
+msgstr "{minute}:{second}"
 
 #: ..\helper.py:98
 msgid "{hour}小时{minute}分{second}秒"
-msgstr ""
+msgstr "{hour}:{minute}:{second}"
 
 #: ..\helper.py:106
 msgid "{day}天{hour}小时{minute}分{second}秒"
-msgstr ""
+msgstr "{day}d {hour}:{minute}:{second}"
 
 #: ..\main.py:45 ..\main.py:91 ..\main.py:132
 msgid "添加下载"
-msgstr ""
+msgstr "Add"
 
 #: ..\main.py:46 ..\main.py:133
 msgid "暂停下载"
-msgstr ""
+msgstr "Pause"
 
 #: ..\main.py:47 ..\main.py:134 ..\main.py:319 ..\main.py:320
 msgid "开始下载"
-msgstr ""
+msgstr "Start"
 
 #: ..\main.py:48 ..\main.py:135
 msgid "删除"
-msgstr ""
+msgstr "Delete"
 
 #: ..\main.py:49
 msgid "配置"
-msgstr ""
+msgstr "Config"
 
 #: ..\main.py:50
 msgid "退出"
@@ -186,27 +181,27 @@ msgstr ""
 
 #: ..\main.py:67
 msgid "链接"
-msgstr ""
+msgstr "Url"
 
 #: ..\main.py:69
 msgid "文件名"
-msgstr ""
+msgstr "Filename"
 
 #: ..\main.py:71
 msgid "进度"
-msgstr ""
+msgstr "Progress"
 
 #: ..\main.py:73
 msgid "速度"
-msgstr ""
+msgstr "Speed"
 
 #: ..\main.py:75
 msgid "已用时间/剩余时间"
-msgstr ""
+msgstr "Time consumed/Time remains"
 
 #: ..\main.py:77
 msgid "状态"
-msgstr ""
+msgstr "Status"
 
 #: ..\main.py:128
 msgid "打开文件"
@@ -214,141 +209,157 @@ msgstr ""
 
 #: ..\main.py:130
 msgid "打开文件所在文件夹"
-msgstr ""
+msgstr "Open folder"
 
 #: ..\main.py:182
 msgid "发生错误：{e}"
-msgstr ""
+msgstr "Error occurs: {e}"
 
 #: ..\main.py:212
 msgid "真的删除选定的下载吗？"
-msgstr ""
+msgstr "Confirm Deleting the selected download?"
 
 #: ..\main.py:226
 msgid "同时删除已经下载的文件吗？"
-msgstr ""
+msgstr "Also the downloaded file?"
 
 #: ..\main.py:266
 msgid "链接地址已经在下载列表，是否替换？"
-msgstr ""
+msgstr "The url has been added to the download lists, replace?"
 
 #: ..\main.py:282
 msgid "已配置"
-msgstr ""
+msgstr "Has been Configued"
 
 #: ..\main.py:299
 msgid "...恒睿下载..."
-msgstr ""
+msgstr "...Hengrui Downloader..."
 
 #: ..\main.py:313 ..\main.py:314
 msgid "继续下载"
-msgstr ""
+msgstr "Continue"
 
 #: ..\main.py:316 ..\main.py:317
 msgid "重新下载"
-msgstr ""
+msgstr "Redownload"
 
 #: ..\main.py:336
 msgid "还有任务在下载，是否真的退出？"
-msgstr ""
+msgstr "Still has download task downloading, exit anyway?"
 
 #: ..\main.py:364
 msgid "不能保存下载记录：{e}"
-msgstr ""
+msgstr "Cann't save downloag log: {e}"
 
 #: ..\main.py:407
 msgid ""
 "链接地址: {}\n"
 msgstr ""
+"Url: {}\n"
 
 #: ..\main.py:408
 msgid ""
 "代理地址（http）：{}\n"
 msgstr ""
+"Http Proxy: {}\n"
 
 #: ..\main.py:409
 msgid ""
 "代理地址（https）：{}\n"
 msgstr ""
+"Https Proxy: {}\n"
 
 #: ..\main.py:410
 msgid ""
 "断点续传: {}\n"
 msgstr ""
+"Resumable: {}\n"
 
 #: ..\main.py:410
 msgid "是"
-msgstr ""
+msgstr "Yes"
 
 #: ..\main.py:411
 msgid "否"
-msgstr ""
+msgstr "No"
 
 #: ..\main.py:412
 msgid ""
 "文件名: {}\n"
 msgstr ""
+"Filename: {}\n"
 
 #: ..\main.py:413
 msgid ""
 "文件大小：{}\n"
 msgstr ""
+"Filesize: {}\n"
 
 #: ..\main.py:414
 msgid ""
 "已下载: {}\n"
 msgstr ""
+"Downloaded: {}\n"
 
 #: ..\main.py:415
 msgid ""
 "保存位置: {}\n"
 msgstr ""
+"Save to: {}\n"
 
 #: ..\main.py:417
 msgid ""
 "已下载的文件: {}\n"
 msgstr ""
+"Downloaded file: {}\n"
 
 #: ..\main.py:418
 msgid ""
 "下载速度: {}\n"
 msgstr ""
+"Download speed: {}\n"
 
 #: ..\main.py:419
 msgid ""
 "下载耗时: {}\n"
 msgstr ""
+"Time consumed: {}\n"
 
 #: ..\main.py:422
 msgid ""
 "临时文件: {}\n"
 msgstr ""
+"Temple file: {}\n"
 
 #: ..\main.py:423
 msgid ""
 "开始时间：{}\n"
 msgstr ""
+"Start time: {}\n"
 
 #: ..\main.py:425
 msgid ""
 "内容类型: {}\n"
 msgstr ""
+"Content type: {}\n"
 
 #: ..\main.py:427
 msgid ""
 "最后错误：{}\n"
 "\n"
 msgstr ""
+"Last error: {}\n"
+"\n"
 
 #: ..\main.py:504
 msgid "欢迎使用恒睿下载..."
-msgstr ""
+msgstr "Hengrui Downloader..."
 
 #: ..\main.py:516
 msgid "正在下载任务数：{}"
-msgstr ""
+msgstr "Downloading Tasks: {}"
 
-#: ..\main.py:518
+
 msgid "下载总速度：{}"
-msgstr ""
+msgstr "Total Downloading Speed: {}"
 

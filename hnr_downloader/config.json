@@ -5,7 +5,7 @@
     "auto_change_default_save_to": true,
     "max_retry": 50,
     "debug": true,
-    "last_used_http_proxy": "http://127.0.0.1:8580",
+    "last_used_http_proxy": null,
     "last_used_https_proxy": null,
     "auto_start": true
 }

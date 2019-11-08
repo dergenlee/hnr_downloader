@@ -18,61 +18,60 @@ msgstr ""
 msgid "链接地址"
 msgstr "連接地址"
 
-#: ..\add.py:34
+#: ..\add.py:35
 msgid "文件名称"
 msgstr "檔案名稱"
 
-#: ..\add.py:40
+#: ..\add.py:42
 msgid "文件大小"
 msgstr "檔案大小"
 
-#: ..\add.py:46
+#: ..\add.py:50
 msgid "代理地址"
 msgstr "代理伺服器"
 
-#: ..\add.py:58
+#: ..\add.py:63
 msgid "保存路径"
 msgstr "保持路徑"
 
-#: ..\add.py:60
+#: ..\add.py:67
 msgid "浏览"
 msgstr "瀏覽"
 
-#: ..\add.py:68
+#: ..\add.py:77
 msgid "自动开始下载"
 msgstr ""
 
-#: ..\add.py:69
+#: ..\add.py:79
 msgid "自动改变默认保存路径"
 msgstr ""
 
-#: ..\add.py:97
+#: ..\add.py:107
 msgid "确定"
 msgstr "確定"
 
-#: ..\add.py:98
+#: ..\add.py:108
 msgid "取消"
 msgstr "取消"
 
-#: ..\add.py:134
+#: ..\add.py:145
 msgid "请输入有效的文件名"
 msgstr "請提供有效的檔案名稱"
 
-#: ..\add.py:134 ..\add.py:138 ..\hnr_downloader.py:126
-#: ..\hnr_downloader.py:208 ..\hnr_downloader.py:222 ..\hnr_downloader.py:262
-#: ..\hnr_downloader.py:277 ..\hnr_downloader.py:332 ..\hnr_downloader.py:479
+#: ..\add.py:145 ..\add.py:149 ..\main.py:127 ..\main.py:213 ..\main.py:227
+#: ..\main.py:267 ..\main.py:282 ..\main.py:337 ..\main.py:484
 msgid "恒睿下载"
 msgstr "恆睿下載"
 
-#: ..\add.py:138
+#: ..\add.py:149
 msgid "请输入有效的下载地址"
 msgstr "請輸入有效的連接地址"
 
-#: ..\add.py:170
+#: ..\add.py:181
 msgid "正在获取信息..."
 msgstr "正在獲取檔案信息..."
 
-#: ..\add.py:191
+#: ..\add.py:202
 msgid "选择文件夹"
 msgstr "選擇資料夾"
 
@@ -112,23 +111,27 @@ msgstr "已獲取檔案資訊"
 msgid "错误: {}"
 msgstr "錯誤: {}"
 
-#: ..\downloader.py:132
+#: ..\downloader.py:39
+msgid "不能停止下载"
+msgstr "不能停止下載"
+
+#: ..\downloader.py:137
 msgid "链接地址格式不对"
 msgstr "連接地址格式不對"
 
-#: ..\downloader.py:137
+#: ..\downloader.py:142
 msgid "不能连接到 {}"
 msgstr "不能連接到 {}"
 
-#: ..\downloader.py:348
+#: ..\downloader.py:358
 msgid "需要登录"
 msgstr "需要登錄"
 
-#: ..\downloader.py:350
+#: ..\downloader.py:360
 msgid "找不到文件"
 msgstr "找不到檔案"
 
-#: ..\downloader.py:352 ..\downloader.py:354
+#: ..\downloader.py:362 ..\downloader.py:364
 msgid "返回错误代码：{}"
 msgstr "返回錯誤代碼: {}"
 
@@ -156,196 +159,195 @@ msgstr "{hour}:{minute}:{second}"
 msgid "{day}天{hour}小时{minute}分{second}秒"
 msgstr "{day}d {hour}:{minute}:{second}"
 
-#: ..\hnr_downloader.py:45 ..\hnr_downloader.py:93 ..\hnr_downloader.py:130
+#: ..\main.py:45 ..\main.py:91 ..\main.py:132
 msgid "添加下载"
 msgstr "新增下載"
 
-#: ..\hnr_downloader.py:46 ..\hnr_downloader.py:131
+#: ..\main.py:46 ..\main.py:133
 msgid "暂停下载"
 msgstr "暫停下載"
 
-#: ..\hnr_downloader.py:47 ..\hnr_downloader.py:132 ..\hnr_downloader.py:314
-#: ..\hnr_downloader.py:315
+#: ..\main.py:47 ..\main.py:134 ..\main.py:319 ..\main.py:320
 msgid "开始下载"
 msgstr "開始下載"
 
-#: ..\hnr_downloader.py:48 ..\hnr_downloader.py:133
+#: ..\main.py:48 ..\main.py:135
 msgid "删除"
 msgstr "刪除"
 
-#: ..\hnr_downloader.py:49
+#: ..\main.py:49
 msgid "配置"
 msgstr "配置"
 
-#: ..\hnr_downloader.py:50
+#: ..\main.py:50
 msgid "退出"
 msgstr "退出"
 
-#: ..\hnr_downloader.py:67
+#: ..\main.py:67
 msgid "链接"
 msgstr "連接"
 
-#: ..\hnr_downloader.py:69
+#: ..\main.py:69
 msgid "文件名"
 msgstr "檔案名"
 
-#: ..\hnr_downloader.py:71
+#: ..\main.py:71
 msgid "进度"
 msgstr "進度"
 
-#: ..\hnr_downloader.py:73
+#: ..\main.py:73
 msgid "速度"
 msgstr "速度"
 
-#: ..\hnr_downloader.py:75
+#: ..\main.py:75
 msgid "已用时间/剩余时间"
 msgstr "已用時間/剩餘時間"
 
-#: ..\hnr_downloader.py:77
+#: ..\main.py:77
 msgid "状态"
 msgstr "狀態"
 
-#: ..\hnr_downloader.py:127
+#: ..\main.py:128
 msgid "打开文件"
 msgstr ""
 
-#: ..\hnr_downloader.py:128
+#: ..\main.py:130
 msgid "打开文件所在文件夹"
 msgstr "打開檔案所在的資料夾"
 
-#: ..\hnr_downloader.py:177
+#: ..\main.py:182
 msgid "发生错误：{e}"
 msgstr "發生錯誤: {e}"
 
-#: ..\hnr_downloader.py:207
+#: ..\main.py:212
 msgid "真的删除选定的下载吗？"
 msgstr "即將刪除選定下載，確定嗎?"
 
-#: ..\hnr_downloader.py:221
+#: ..\main.py:226
 msgid "同时删除已经下载的文件吗？"
 msgstr "下載的文件也一起刪除嗎?"
 
-#: ..\hnr_downloader.py:261
+#: ..\main.py:266
 msgid "链接地址已经在下载列表，是否替换？"
 msgstr "連接地址已在下載列表，是否覆蓋？覆蓋的話之前下載的文件不受影響。"
 
-#: ..\hnr_downloader.py:277
+#: ..\main.py:282
 msgid "已配置"
 msgstr "已經配置好"
 
-#: ..\hnr_downloader.py:294
+#: ..\main.py:299
 msgid "...恒睿下载..."
 msgstr "...恆睿下載..."
 
-#: ..\hnr_downloader.py:308 ..\hnr_downloader.py:309
+#: ..\main.py:313 ..\main.py:314
 msgid "继续下载"
 msgstr "繼續下載"
 
-#: ..\hnr_downloader.py:311 ..\hnr_downloader.py:312
+#: ..\main.py:316 ..\main.py:317
 msgid "重新下载"
 msgstr "重新下載"
 
-#: ..\hnr_downloader.py:331
+#: ..\main.py:336
 msgid "还有任务在下载，是否真的退出？"
 msgstr "還有任務正在下載，是否還要退出?"
 
-#: ..\hnr_downloader.py:359
+#: ..\main.py:364
 msgid "不能保存下载记录：{e}"
 msgstr "不能保存下載記錄: {e}"
 
-#: ..\hnr_downloader.py:402
+#: ..\main.py:407
 msgid ""
 "链接地址: {}\n"
 msgstr ""
 "連接: {}\n"
 
-#: ..\hnr_downloader.py:403
+#: ..\main.py:408
 msgid ""
 "代理地址（http）：{}\n"
 msgstr ""
 "代理伺服器（http）: {}\n"
 
-#: ..\hnr_downloader.py:404
+#: ..\main.py:409
 msgid ""
 "代理地址（https）：{}\n"
 msgstr ""
 "代理伺服器（https）: {}\n"
 
-#: ..\hnr_downloader.py:405
+#: ..\main.py:410
 msgid ""
 "断点续传: {}\n"
 msgstr ""
 "斷點續傳: {}\n"
 
-#: ..\hnr_downloader.py:405
+#: ..\main.py:410
 msgid "是"
 msgstr "是"
 
-#: ..\hnr_downloader.py:406
+#: ..\main.py:411
 msgid "否"
 msgstr "否"
 
-#: ..\hnr_downloader.py:407
+#: ..\main.py:412
 msgid ""
 "文件名: {}\n"
 msgstr ""
 "檔案名: {}\n"
 
-#: ..\hnr_downloader.py:408
+#: ..\main.py:413
 msgid ""
 "文件大小：{}\n"
 msgstr ""
 "檔案大小: {}\n"
 
-#: ..\hnr_downloader.py:409
+#: ..\main.py:414
 msgid ""
 "已下载: {}\n"
 msgstr ""
 "已下載: {}\n"
 
-#: ..\hnr_downloader.py:410
+#: ..\main.py:415
 msgid ""
 "保存位置: {}\n"
 msgstr ""
 "保存路徑: {}\n"
 
-#: ..\hnr_downloader.py:412
+#: ..\main.py:417
 msgid ""
 "已下载的文件: {}\n"
 msgstr ""
 "已下載的檔案: {}\n"
 
-#: ..\hnr_downloader.py:413
+#: ..\main.py:418
 msgid ""
 "下载速度: {}\n"
 msgstr ""
 "下載速度: {}\n"
 
-#: ..\hnr_downloader.py:414
+#: ..\main.py:419
 msgid ""
 "下载耗时: {}\n"
 msgstr ""
 "下載耗時: {}\n"
 
-#: ..\hnr_downloader.py:417
+#: ..\main.py:422
 msgid ""
 "临时文件: {}\n"
 msgstr ""
 "臨時檔案: {}\n"
 
-#: ..\hnr_downloader.py:418
+#: ..\main.py:423
 msgid ""
 "开始时间：{}\n"
 msgstr ""
 "開始時間: {}\n"
 
-#: ..\hnr_downloader.py:420
+#: ..\main.py:425
 msgid ""
 "内容类型: {}\n"
 msgstr ""
 "内容類型: {}\n"
 
-#: ..\hnr_downloader.py:422
+#: ..\main.py:427
 msgid ""
 "最后错误：{}\n"
 "\n"
@@ -353,12 +355,12 @@ msgstr ""
 "最後錯誤: {}\n"
 "\n"
 
-#: ..\hnr_downloader.py:499
+#: ..\main.py:504
 msgid "欢迎使用恒睿下载..."
 msgstr ""
 "歡迎使用恆瑞下載..."
 
-#: ..\hnr_downloader.py:511
+#: ..\main.py:516
 msgid "正在下载任务数：{}"
 msgstr ""
 "正在下載任務數: {}"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-11-08 16:19+0800\n"
+"POT-Creation-Date: 2019-11-01 15:44+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 
-
 #: ..\add.py:24
 msgid "链接地址"
-msgstr ""
+msgstr "連接地址"
 
 #: ..\add.py:35
 msgid "文件名称"
-msgstr ""
+msgstr "檔案名稱"
 
 #: ..\add.py:42
 msgid "文件大小"
-msgstr ""
+msgstr "檔案大小"
 
 #: ..\add.py:50
 msgid "代理地址"
-msgstr ""
+msgstr "代理伺服器"
 
 #: ..\add.py:63
 msgid "保存路径"
-msgstr ""
+msgstr "保持路徑"
 
 #: ..\add.py:67
 msgid "浏览"
-msgstr ""
+msgstr "瀏覽"
 
 #: ..\add.py:77
 msgid "自动开始下载"
@@ -49,164 +48,160 @@ msgstr ""
 
 #: ..\add.py:107
 msgid "确定"
-msgstr ""
+msgstr "確定"
 
 #: ..\add.py:108
 msgid "取消"
-msgstr ""
+msgstr "取消"
 
 #: ..\add.py:145
 msgid "请输入有效的文件名"
-msgstr ""
+msgstr "請提供有效的檔案名稱"
 
 #: ..\add.py:145 ..\add.py:149 ..\main.py:127 ..\main.py:213 ..\main.py:227
 #: ..\main.py:267 ..\main.py:282 ..\main.py:337 ..\main.py:484
 msgid "恒睿下载"
-msgstr ""
+msgstr "恆睿下載"
 
 #: ..\add.py:149
 msgid "请输入有效的下载地址"
-msgstr ""
+msgstr "請輸入有效的連接地址"
 
 #: ..\add.py:181
 msgid "正在获取信息..."
-msgstr ""
+msgstr "正在獲取檔案信息..."
 
 #: ..\add.py:202
 msgid "选择文件夹"
-msgstr ""
+msgstr "選擇資料夾"
 
 #: ..\downloader.py:12
 msgid "准备下载"
-msgstr ""
+msgstr "準備下載"
 
 #: ..\downloader.py:13
 msgid "正在第 {} 次重试"
-msgstr ""
+msgstr "正在第 {} 次重試"
 
 #: ..\downloader.py:14
 msgid "正在下载"
-msgstr ""
+msgstr "正在下載"
 
 #: ..\downloader.py:15
 msgid "下载失败"
-msgstr ""
+msgstr "下載失敗"
 
 #: ..\downloader.py:16
 msgid "未开始"
-msgstr ""
+msgstr "未開始"
 
 #: ..\downloader.py:17
 msgid "已下载"
-msgstr ""
+msgstr "已下載"
 
 #: ..\downloader.py:18
 msgid "下载暂停"
-msgstr ""
+msgstr "下載暫停"
 
 #: ..\downloader.py:19
 msgid "已获取信息"
-msgstr ""
+msgstr "已獲取檔案資訊"
 
 #: ..\downloader.py:20
 msgid "错误: {}"
-msgstr ""
-
-#: ..\downloader.py:39
-msgid "不能停止下载"
-msgstr ""
+msgstr "錯誤: {}"
 
 #: ..\downloader.py:137
 msgid "链接地址格式不对"
-msgstr ""
+msgstr "連接地址格式不對"
 
 #: ..\downloader.py:142
 msgid "不能连接到 {}"
-msgstr ""
+msgstr "不能連接到 {}"
 
 #: ..\downloader.py:358
 msgid "需要登录"
-msgstr ""
+msgstr "需要登錄"
 
 #: ..\downloader.py:360
 msgid "找不到文件"
-msgstr ""
+msgstr "找不到檔案"
 
 #: ..\downloader.py:362 ..\downloader.py:364
 msgid "返回错误代码：{}"
-msgstr ""
+msgstr "返回錯誤代碼: {}"
 
 #: ..\helper.py:68 ..\helper.py:84
 msgid "未知"
-msgstr ""
+msgstr "未知"
 
 #: ..\helper.py:86
 msgid "小于1秒"
-msgstr ""
+msgstr "少於1秒"
 
 #: ..\helper.py:89
 msgid "{}秒"
-msgstr ""
+msgstr "{}秒"
 
 #: ..\helper.py:93
 msgid "{minute}分{second}秒"
-msgstr ""
+msgstr "{minute}:{second}"
 
 #: ..\helper.py:98
 msgid "{hour}小时{minute}分{second}秒"
-msgstr ""
+msgstr "{hour}:{minute}:{second}"
 
 #: ..\helper.py:106
 msgid "{day}天{hour}小时{minute}分{second}秒"
-msgstr ""
+msgstr "{day}d {hour}:{minute}:{second}"
 
 #: ..\main.py:45 ..\main.py:91 ..\main.py:132
 msgid "添加下载"
-msgstr ""
+msgstr "新增下載"
 
 #: ..\main.py:46 ..\main.py:133
 msgid "暂停下载"
-msgstr ""
+msgstr "暫停下載"
 
 #: ..\main.py:47 ..\main.py:134 ..\main.py:319 ..\main.py:320
 msgid "开始下载"
-msgstr ""
+msgstr "開始下載"
 
 #: ..\main.py:48 ..\main.py:135
 msgid "删除"
-msgstr ""
+msgstr "刪除"
 
 #: ..\main.py:49
 msgid "配置"
-msgstr ""
+msgstr "配置"
 
 #: ..\main.py:50
 msgid "退出"
-msgstr ""
+msgstr "退出"
 
 #: ..\main.py:67
 msgid "链接"
-msgstr ""
+msgstr "連接"
 
 #: ..\main.py:69
 msgid "文件名"
-msgstr ""
+msgstr "檔案名"
 
 #: ..\main.py:71
 msgid "进度"
-msgstr ""
+msgstr "進度"
 
 #: ..\main.py:73
 msgid "速度"
-msgstr ""
+msgstr "速度"
 
 #: ..\main.py:75
 msgid "已用时间/剩余时间"
-msgstr ""
+msgstr "已用時間/剩餘時間"
 
 #: ..\main.py:77
 msgid "状态"
-msgstr ""
+msgstr "狀態"
 
 #: ..\main.py:128
 msgid "打开文件"
@@ -214,141 +209,160 @@ msgstr ""
 
 #: ..\main.py:130
 msgid "打开文件所在文件夹"
-msgstr ""
+msgstr "打開檔案所在的資料夾"
 
 #: ..\main.py:182
 msgid "发生错误：{e}"
-msgstr ""
+msgstr "發生錯誤: {e}"
 
 #: ..\main.py:212
 msgid "真的删除选定的下载吗？"
-msgstr ""
+msgstr "即將刪除選定下載，確定嗎?"
 
 #: ..\main.py:226
 msgid "同时删除已经下载的文件吗？"
-msgstr ""
+msgstr "下載的文件也一起刪除嗎?"
 
 #: ..\main.py:266
 msgid "链接地址已经在下载列表，是否替换？"
-msgstr ""
+msgstr "連接地址已在下載列表，是否覆蓋？覆蓋的話之前下載的文件不受影響。"
 
 #: ..\main.py:282
 msgid "已配置"
-msgstr ""
+msgstr "已經配置好"
 
 #: ..\main.py:299
 msgid "...恒睿下载..."
-msgstr ""
+msgstr "...恆睿下載..."
 
 #: ..\main.py:313 ..\main.py:314
 msgid "继续下载"
-msgstr ""
+msgstr "繼續下載"
 
 #: ..\main.py:316 ..\main.py:317
 msgid "重新下载"
-msgstr ""
+msgstr "重新下載"
 
 #: ..\main.py:336
 msgid "还有任务在下载，是否真的退出？"
-msgstr ""
+msgstr "還有任務正在下載，是否還要退出?"
 
 #: ..\main.py:364
 msgid "不能保存下载记录：{e}"
-msgstr ""
+msgstr "不能保存下載記錄: {e}"
 
 #: ..\main.py:407
 msgid ""
 "链接地址: {}\n"
 msgstr ""
+"連接: {}\n"
 
 #: ..\main.py:408
 msgid ""
 "代理地址（http）：{}\n"
 msgstr ""
+"代理伺服器（http）: {}\n"
 
 #: ..\main.py:409
 msgid ""
 "代理地址（https）：{}\n"
 msgstr ""
+"代理伺服器（https）: {}\n"
 
 #: ..\main.py:410
 msgid ""
 "断点续传: {}\n"
 msgstr ""
+"斷點續傳: {}\n"
 
 #: ..\main.py:410
 msgid "是"
-msgstr ""
+msgstr "是"
 
 #: ..\main.py:411
 msgid "否"
-msgstr ""
+msgstr "否"
 
 #: ..\main.py:412
 msgid ""
 "文件名: {}\n"
 msgstr ""
+"檔案名: {}\n"
 
 #: ..\main.py:413
 msgid ""
 "文件大小：{}\n"
 msgstr ""
+"檔案大小: {}\n"
 
 #: ..\main.py:414
 msgid ""
 "已下载: {}\n"
 msgstr ""
+"已下載: {}\n"
 
 #: ..\main.py:415
 msgid ""
 "保存位置: {}\n"
 msgstr ""
+"保存路徑: {}\n"
 
 #: ..\main.py:417
 msgid ""
 "已下载的文件: {}\n"
 msgstr ""
+"已下載的檔案: {}\n"
 
 #: ..\main.py:418
 msgid ""
 "下载速度: {}\n"
 msgstr ""
+"下載速度: {}\n"
 
 #: ..\main.py:419
 msgid ""
 "下载耗时: {}\n"
 msgstr ""
+"下載耗時: {}\n"
 
 #: ..\main.py:422
 msgid ""
 "临时文件: {}\n"
 msgstr ""
+"臨時檔案: {}\n"
 
 #: ..\main.py:423
 msgid ""
 "开始时间：{}\n"
 msgstr ""
+"開始時間: {}\n"
 
 #: ..\main.py:425
 msgid ""
 "内容类型: {}\n"
 msgstr ""
+"内容類型: {}\n"
 
 #: ..\main.py:427
 msgid ""
 "最后错误：{}\n"
 "\n"
 msgstr ""
+"最後錯誤: {}\n"
+"\n"
 
 #: ..\main.py:504
 msgid "欢迎使用恒睿下载..."
 msgstr ""
+"歡迎使用恆瑞下載..."
 
 #: ..\main.py:516
 msgid "正在下载任务数：{}"
 msgstr ""
+"正在下載任務數: {}"
 
-#: ..\main.py:518
+
 msgid "下载总速度：{}"
 msgstr ""
+"下載縂速度: {}"
 

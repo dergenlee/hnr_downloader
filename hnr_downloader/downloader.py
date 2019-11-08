@@ -20,7 +20,7 @@ INFO_RETRIEVED = _('已获取信息')
 ERROR = _('错误: {}')
 
 lock = threading.Lock()
-
+locka=  threading.Lock()
 
 def get_filename_from_url(url):
     fn = os.path.basename(urlparse(url).path).lower() or 'index.html'
@@ -33,6 +33,11 @@ def get_filename_from_url(url):
 def get_ext_of_content_encoding(encoding):
     return f'.{encoding}' if encoding else ''
 
+
+class CannotStopDownloadException(Exception):
+    def __init__(self,message=None):
+        message=message or _('不能停止下载')
+        super().__init__(message)
 
 class Download():
     def __init__(self, url=None, save_to=None, dict=None, config=None):
@@ -196,14 +201,13 @@ class Download():
             return
 
         retry = 0
+        has_error = False
 
         download_from = self.downloaded
-
         with open(self.tmppath, 'ab') as f:
-            self.downloading = True
-            self.set_stop(False)
+            self.set_downloading(True)
             while not self.size or self.downloaded < self.size:
-                if self.check_stop():
+                if self.stop:
                     break
 
                 if self.resumable:
@@ -241,9 +245,10 @@ class Download():
                             self.downloaded += len(chunk)
                             this_time = datetime.datetime.now()
                             secs = (this_time - prev_time).total_seconds()
-                            if secs > 1:
+                            if secs >= 1:
                                 this_downloaded = self.downloaded - prev_downloaded
                                 prev_time = this_time
+                                
                                 prev_downloaded = self.downloaded
                                 self.current_speed = int(
                                     this_downloaded / secs)
@@ -252,16 +257,19 @@ class Download():
                                         self.size - self.downloaded) / self.current_speed
                                 else:
                                     self.remain_time = None
-                            if secs > 60:   # 1分钟保存一次
-                                f.flush()
-                            if secs > 5:    # 5秒检查一次停止标志
-                                if self.check_stop():
+
+                                self.consumed_time = (
+                                    this_time - self.start_time).total_seconds()
+
+                                if self.stop:
                                     break
 
-                            self.consumed_time = (
-                                this_time - self.start_time).total_seconds()
+                                if secs > 60:   # 1分钟保存一次
+                                    f.flush()
+
                     else:
                         self.handleStatusCode(resp.status_code)
+                        has_error = True
                         break
 
                     if self.size == 0:
@@ -275,57 +283,59 @@ class Download():
 
                     if retry >= self.config.max_retry:
                         self.status = FAILED
+                        has_error=True
                         break
+        if not has_error:
+            if not self.stop:
+                if self.downloaded >= self.size:
+                    self.downloaded_file = helper.find_suitable_filename(
+                        self.tmppath[0:-5])
 
-        if not self.check_stop():
-            if self.downloaded >= self.size:
-                self.downloaded_file = helper.find_suitable_filename(
-                    self.tmppath[0:-5])
+                    os.rename(self.tmppath, self.downloaded_file)
 
-                os.rename(self.tmppath, self.downloaded_file)
+                    self.status = COMPLETED
+                    self.has_completed = True
+                    self.consumed_time = (
+                        datetime.datetime.now() - self.start_time).total_seconds()
+                    self.current_speed = (
+                        self.downloaded - download_from) / self.consumed_time
+                    self.remain_time = 0
 
-                self.status = COMPLETED
-                self.has_completed = True
-                self.consumed_time = (
-                    datetime.datetime.now() - self.start_time).total_seconds()
-                self.current_speed = (
-                    self.downloaded - download_from) / self.consumed_time
-                self.remain_time = 0
-
+                else:
+                    self.status = FAILED
             else:
-                self.status = FAILED
-        else:
-            self.status = PAUSED
-            self.is_paused = True
+                self.status = PAUSED
+                self.is_paused = True
 
-        self.downloading = False
+        self.set_downloading(False)
 
-    def check_stop(self):
-        lock.acquire()
-        stopped = self.stop
-        lock.release()
-        return stopped
+    def set_downloading(self,downloading=True):
+        locka.acquire()
+        self.downloading=downloading
+        if downloading:
+            self.stop = False 
+        locka.release()
 
     def set_stop(self, stopped=True):
         lock.acquire()
         self.stop = stopped
         lock.release()
 
-    def stop_download(self, wait=False, timeout=None):
+    def stop_download(self, wait_for_stopped=True, timeout=60):
         self.set_stop()
 
-        end_time = (datetime.datetime.now() +
-                    datetime.timedelta(seconds=timeout) if timeout else None)
-        if wait:
+        end_time = datetime.datetime.now() + datetime.timedelta(seconds=timeout)
+        if wait_for_stopped:
             while self.downloading:
                 time.sleep(0.5)
-                if timeout and datetime.datetime.now() > end_time:
+                if datetime.datetime.now() > end_time:
                     return False
         return True
 
     def destroy(self, delete_downloaded_file=False):
-
-        stoped = self.stop_download(True, 120)
+        stopped = self.stop_download()
+        if not stopped:
+            raise CannotStopDownloadException()
 
         if self.tmppath and os.path.exists(self.tmppath):
             try:

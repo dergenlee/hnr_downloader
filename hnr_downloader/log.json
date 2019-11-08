@@ -1,4 +1,37 @@
 {
-    "save_time": "2019-11-05 22:17:41",
-    "downloads": []
+    "save_time": "2019-11-08 16:40:17",
+    "downloads": [
+        {
+            "url": "https://archive.org/download/romefield01fiel/romefield01fiel.pdf",
+            "http_proxy": "http://127.0.0.1:8580",
+            "https_proxy": null,
+            "resumable": false,
+            "save_to": "G:\\download\\hnr\\books",
+            "filename": "Walter Tylor Field - Romel.pdf",
+            "size": 10762101,
+            "content-type": "application/pdf",
+            "status": "已下载",
+            "is_paused": true,
+            "has_completed": true,
+            "downloaded_file": "G:\\download\\hnr\\books\\Walter Tylor Field - Romel.pdf",
+            "current_speed": 37373.810194540805,
+            "consumed_time": 280.944248
+        },
+        {
+            "url": "https://archive.org/download/romefield02fieluoft/romefield02fieluoft.pdf",
+            "http_proxy": "http://127.0.0.1:8580",
+            "https_proxy": null,
+            "resumable": false,
+            "save_to": "G:\\download\\hnr\\books",
+            "filename": "Walter Taylor Field - Rome Vol 2.pdf",
+            "size": 12659802,
+            "content-type": "application/pdf",
+            "status": "已下载",
+            "is_paused": false,
+            "has_completed": true,
+            "downloaded_file": "G:\\download\\hnr\\books\\Walter Taylor Field - Rome Vol 2.pdf",
+            "current_speed": 42232.99350164844,
+            "consumed_time": 299.760944
+        }
+    ]
 }

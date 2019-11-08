@@ -218,8 +218,6 @@ class MainPanel(wx.Panel):
         self.parent.timer.Stop()
         self.disable_buttons()
 
-        download.stop_download(True)
-
         delete_file = False
         if download.has_completed:
             delete_file = wx.MessageBox(

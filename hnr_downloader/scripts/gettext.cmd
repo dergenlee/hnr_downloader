@@ -1,1 +1,1 @@
- py pygettext.py -d hnr -p ..\i18n\locale ..\add.py ..\downloader.py ..\hnr_downloader.py ..\helper.py
+ py pygettext.py -d hnr -p ..\i18n\locale ..\add.py ..\downloader.py ..\main.py ..\helper.py
