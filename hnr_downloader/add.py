@@ -6,9 +6,8 @@ import os
 
 import wx
 
-from hnr_downloader import helper
-from hnr_downloader.downloader import Download
-
+import helper
+from downloader import Download
 
 class AddDownloadDialog(wx.Dialog):
 

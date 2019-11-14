@@ -1,3 +1,3 @@
-start pythonw ..\hnr_downloader.py
+start pythonw ..\main.py
 
 exit

@@ -7,7 +7,7 @@ import traceback
 import threading
 from urllib.parse import unquote, urlparse
 
-from hnr_downloader import helper
+import helper
 
 STARTING = _('准备下载')
 RETRY = _('正在第 {} 次重试')

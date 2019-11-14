@@ -19,14 +19,19 @@ import json
 
 import wx
 
-from hnr_downloader import helper
-from hnr_downloader.i18n import i18n
-from hnr_downloader.add import AddDownloadDialog
-from hnr_downloader.downloader import Download
-from hnr_downloader.config import HnrConfig
+import helper
+from i18n import i18n
+from add import AddDownloadDialog
+from downloader import Download
+from config import HnrConfig
 
 appPath = os.path.abspath(os.path.dirname(__file__))
 
+home = os.path.expanduser('~') or appPath
+config_dir=os.path.join(home,'.hnrdownloader')
+
+if not os.path.exists(config_dir):
+    os.makedirs(config_dir)
 
 class MainPanel(wx.Panel):
     download_lists = None
@@ -38,7 +43,7 @@ class MainPanel(wx.Panel):
 
         self.parent = parent
 
-        self.config = HnrConfig(os.path.join(appPath, 'config.json'))
+        self.config = HnrConfig(os.path.join(config_dir,'config.json'))
 
         self.downloads = self.get_log_downloads()
 
@@ -449,7 +454,7 @@ class MainPanel(wx.Panel):
         return index, self.downloads.get(url, None)
 
     def get_log_downloads(self):
-        logfile = os.path.join(appPath, 'log.json')
+        logfile = os.path.join(config_dir, 'log.json')
         current_downloads = {}
         if os.path.exists(logfile):
             with open(logfile, 'r', encoding='utf-8') as f:
